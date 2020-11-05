@@ -1,0 +1,45 @@
+---
+title: "My Academic and Professional Experience"
+output: html_document
+---
+\
+
+### EDUCATION
+
+**Columbia University, Mailman School of Public Health**
+
+Master of Sciencce in Biostatistics
+
+New York, NY, US (Sep 2020 - Jun 2022)
+
+**University of California, Santa Barbara**
+
+Bachelor of Arts in Sociology & Bachelor of Science in Mathematical Science
+
+Santa Barbara, CA, US (Sep 2016 – Jun 2020)
+ 
+**Relevant Courses: **
+
+Probability and Statistics; Calculus with Application; Numerical Analysis; Real Analysis; Data Science; Socialization; Aging Society; Human Sexuality; Population Geography; Introduction to Public Health; Epidemiological Principle
+
+### PROFESSIONAL EXPERIENCE
+
+**Beijing Hongdiao Institute of Public Affairs**
+
+Director Assistant 
+
+Beijing, China (Aug 2019 – Sept 2019)
+
+**China-Japan Union Hospital of Jilin University**
+
+Research Director Assistant
+
+Changchun, Jilin, China (Jun 2019 – Aug 2019)
+
+### RESEARCH PROJECTS
+
+**Fighting to Live: Resisting Water Privatization in the 21st Century**
+
+Research Member
+
+Santa Barbara, CA, US (Apr 2019 – June 2019)

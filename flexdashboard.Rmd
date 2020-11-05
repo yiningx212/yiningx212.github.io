@@ -1,0 +1,53 @@
+---
+title: "Plots on Instacart Orders on Weekends"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data(instacart)
+instacart_weekends= filter(instacart, order_dow== 5:7, preserve= TRUE)
+
+
+instacart_weekends %>%
+  mutate(text_label = str_c("Departments", department, "Hour ", order_hour_of_day)) %>%
+  plot_ly(
+    x = ~aisle_id, y = ~order_hour_of_day, type = "scatter", mode = "markers",
+    color = ~department, alpha = 0.1, colors="viridis", label="text_label")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart_weekends %>% 
+  mutate(department = fct_reorder(department, order_hour_of_day)) %>% 
+  plot_ly(y= ~ order_hour_of_day, color= ~department, type= "box", colors="viridis")
+```
+
+### Chart C
+
+```{r}
+
+instacart_weekends %>%
+  count(department) %>%
+  mutate(department = fct_reorder(department, n)) %>% 
+  plot_ly(x = ~department, y = ~n, color = ~ department, type = "bar", colors = "viridis")
+```

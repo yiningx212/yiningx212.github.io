@@ -1,0 +1,40 @@
+---
+title: "Welcome to Yining's DS Project"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+
+# This is the Landing Page
+
+A.k.a. a meme page!
+
+<img src="IMG_0557.jpeg" style="width:50%">
+
+# My Experience
+
+Here is a brief of my academic and professional experiences. 
+
+[CV](cv.html)
+
+# Flexdashboard
+
+Here are three plots analyzing the shopping customs of the users who place orders on weekends. (a bar plot on category, a box plot on hour of the day and a scatter plot on )
+
+## 1. 
+A scatter plot on the location and the time (id of aisle and the time of order placed) by department. The degree of transparency of the points denotes the frequency of the orders in the given hour, aisle and department. 
+
+## 2. 
+A boxplot on when the orders are placed in a day on weekends by departments. 
+
+## 3. 
+A barplot of the orders on instacart on weekends, organized by the departments. We could see the highest three departments shopped from are produce, dairy eggs and beverages.  
+
+Click here to view the [plots](flexdashboard.html).
+
+
+
+
+
